@@ -7,6 +7,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/*
+*	Link to the Challenge https://adventofcode.com/2022/day/2
+*/
+
 public class Day2 {
 
 	public static void main(String[] args) {
