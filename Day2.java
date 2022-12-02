@@ -58,8 +58,8 @@ public class Day2 {
 			}
 			
 			//Exercise 2: 
-			//a) Determine if win/draw/lose and choose rock/paper/scissor which gives us the value
-			//b) Determine outcome by constructing key from given letter A/B/C and our rock/paper/scissor from a)
+			//a) Determines if win/draw/lose and choose rock/paper/scissor which gives us the value
+			//b) Determines outcome by constructing key from given letter A/B/C and our rock/paper/scissor from a)
 			for(String miString : myList) {
 				sum2 += mappedPoints.get(mappedAgain.get(miString)) +  mappedOutcome.get(miString.substring(0, 1) + " " + mappedAgain.get(miString));
 			}
